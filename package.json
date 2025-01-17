@@ -4,7 +4,8 @@
     "dev": "marp -w -s",
     "build": "marp",
     "pdf": "marp --pdf",
-    "pptx": "marp --pptx-editable"
+    "pptx": "marp --pptx",
+    "pptx:editable": "marp --pptx-editable"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^4.1.0"
