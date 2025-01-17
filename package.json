@@ -1,0 +1,15 @@
+{
+  "name": "slide",
+  "scripts": {
+    "dev": "marp -w -s",
+    "pdf": "marp --pdf",
+    "pptx": "marp --pptx-editable"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.1.0"
+  },
+  "marp": {
+    "allowLocalFiles": true,
+    "themeSet": "./ts-challenge/style.css"
+  }
+}
