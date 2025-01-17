@@ -13,8 +13,9 @@ jobs:
 
       - name: Convert Markdown into PDF
         uses: KoharaKazuya/marp-cli-action@v2
-        generate-html: true
-        generate-pdf: true
+        with:
+          generate-html: true
+          generate-pdf: true
 
       - name: Save outputs
         uses: actions/upload-artifact@v3
