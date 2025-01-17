@@ -2,6 +2,7 @@
   "name": "slide",
   "scripts": {
     "dev": "marp -w -s",
+    "build": "marp",
     "pdf": "marp --pdf",
     "pptx": "marp --pptx-editable"
   },
@@ -10,6 +11,6 @@
   },
   "marp": {
     "allowLocalFiles": true,
-    "themeSet": "./ts-challenge/style.css"
+    "themeSet": "./src/ts-challenge/style.css"
   }
 }
