@@ -18,7 +18,7 @@ _class: title
 
 # Problem 1
 
-### - [Push](https://github.com/type-challenges/type-challenges/blob/main/questions/03057-easy-push/README.md) -
+### [Push](https://github.com/type-challenges/type-challenges/blob/main/questions/03057-easy-push/README.md)
 
 <!--
 _class: lead
@@ -171,7 +171,7 @@ _class: prereq
 
 # Problem 2
 
-### - [Unshift](https://github.com/type-challenges/type-challenges/blob/main/questions/03060-easy-unshift/README.md) -
+### [Unshift](https://github.com/type-challenges/type-challenges/blob/main/questions/03060-easy-unshift/README.md)
 
 <!--
 _class: lead
@@ -195,7 +195,7 @@ _class: lead
 
 # Problem 3
 
-### - [Concat](https://github.com/type-challenges/type-challenges/blob/main/questions/00533-easy-concat/README.md) -
+### [Concat](https://github.com/type-challenges/type-challenges/blob/main/questions/00533-easy-concat/README.md)
 
 <!--
 _class: lead
@@ -219,7 +219,7 @@ _class: lead
 
 # Related Problem
 
-### - [Last of Array](https://github.com/type-challenges/type-challenges/blob/main/questions/00015-medium-last/README.md) -
+### [Last of Array](https://github.com/type-challenges/type-challenges/blob/main/questions/00015-medium-last/README.md)
 
 <!--
 _class: lead
