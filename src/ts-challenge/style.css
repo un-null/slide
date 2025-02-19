@@ -58,3 +58,29 @@ section.prereq {
     white-space: nowrap;
   }
 }
+
+.link-card-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.link-card-list li {
+  flex: 1 1 200px;
+}
+
+.link-card-list a {
+  display: block;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.link-card-list a:hover {
+  background-color: #555;
+}
