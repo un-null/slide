@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <title>Google SWE Reading Group</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+      body {
+        font-family: "Geist", serif;
+        line-height: 1.8;
+        background-color: #202020;
+        color: #ededed;
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+
+      h1 {
+        color: #3178c6;
+      }
+
+      a {
+        color: #3178c6;
+      }
+
+      .link-card-list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      .link-card-list a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        display: block;
+        padding: 1rem;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .link-card-list a:hover {
+        background-color: #555;
+      }
+
+      .ti-folder {
+        padding-right: 0.5rem;
+      }
+
+      .ti-brand-typescript {
+        color: #3178c6;
+        font-size: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>
+      These slides are for the reading group at the
+      <span><a href="https://gaogaoclub.org/">GAOGAO CLUB</a></span
+      >, organized by
+      <span><a href="https://gaogao.asia/">GAOGAO Pte. Ltd.</a></span>
+      <br /><br />
+      In this reading group, we will read
+      <span
+        ><a href="https://abseil.io/resources/swe-book"
+          >Software Engineering at Google</a
+        ></span
+      >
+      and focus our discussions on implementing what we learn to improve
+      ourselves, our teams, and our company.
+      <br />
+      <br />
+
+      Slides prepared by
+      <span><a href="/slide/">Keita Kawabata</a></span>
+    </p>
+    <h1>Link to slides</h1>
+    <ul class="link-card-list">
+      <li>
+        <a
+          href="/slide/google-swe/kickoff/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="ti ti-folder"></i>Kickoff</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>

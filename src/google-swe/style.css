@@ -1,0 +1,84 @@
+/* @theme google_swe */
+
+@import "default";
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+section {
+  font-family: "Geist", serif;
+  line-height: 1.8;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+img {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+section.title h1 {
+  font-size: 2.5rem;
+}
+
+section.lead {
+  text-align: center;
+  h1 {
+    font-size: 2.5rem;
+    color: #3178c6;
+  }
+  a {
+    color: #ededed;
+    text-decoration: underline;
+    text-underline-offset: 0.1rem;
+
+    &:hover {
+      color: #3178c6;
+    }
+  }
+}
+
+section.list {
+  h1 {
+    font-size: 2.5;
+  }
+  li {
+    font-size: 1.4rem;
+  }
+  span {
+    display: inline;
+    white-space: nowrap;
+  }
+}
+
+.link-card-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.link-card-list li {
+  flex: 1 1 200px;
+}
+
+.link-card-list a {
+  display: block;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.link-card-list a:hover {
+  background-color: #555;
+}

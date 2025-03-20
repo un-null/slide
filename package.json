@@ -12,6 +12,6 @@
   },
   "marp": {
     "allowLocalFiles": true,
-    "themeSet": "./src/ts-challenge/style.css"
+    "themeSet": "./src/google-swe/style.css"
   }
 }
